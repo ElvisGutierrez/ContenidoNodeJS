@@ -1,0 +1,57 @@
+[
+  {
+    "id": "asd",
+    "title": "Inception",
+    "year": 2010,
+    "genre": ["Action", "Sci-Fi", "Thriller"],
+    "director": "Christopher Nolan",
+    "rating": 8.8,
+    "duration": 148,
+    "cast": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+    "language": "English"
+  },
+  {
+    "id": 2,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genre": ["Action", "Crime", "Drama"],
+    "director": "Christopher Nolan",
+    "rating": 9.0,
+    "duration": 152,
+    "cast": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "language": "English"
+  },
+  {
+    "id": 3,
+    "title": "Spirited Away",
+    "year": 2001,
+    "genre": ["Animation", "Adventure", "Fantasy"],
+    "director": "Hayao Miyazaki",
+    "rating": 8.6,
+    "duration": 125,
+    "cast": ["Rumi Hiiragi", "Miyu Irino", "Mari Natsuki"],
+    "language": "Japanese"
+  },
+  {
+    "id": 4,
+    "title": "Interstellar",
+    "year": 2014,
+    "genre": ["Adventure", "Drama", "Sci-Fi"],
+    "director": "Christopher Nolan",
+    "rating": 8.6,
+    "duration": 169,
+    "cast": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"],
+    "language": "English"
+  },
+  {
+    "id": 5,
+    "title": "Parasite",
+    "year": 2019,
+    "genre": ["Comedy", "Drama", "Thriller"],
+    "director": "Bong Joon Ho",
+    "rating": 8.5,
+    "duration": 132,
+    "cast": ["Kang-ho Song", "Sun-kyun Lee", "Yeo-jeong Jo"],
+    "language": "Korean"
+  }
+]

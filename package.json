@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standar"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.12"
+  }
+}
