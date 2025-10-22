@@ -3,8 +3,26 @@ const app = express();
 const api = require("./movies.json");
 const crypto = require("node:crypto");
 const { validateMovie, validatePartialMovie } = require("./schema/movies");
+const cors = require("cors");
 
 app.use(express.json());
+
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      const ACCEPT_ORIGINS = ["http://localhost:3000", "http://127.0.0.1:5500"];
+
+      if (ACCEPT_ORIGINS.includes(origin)) {
+        return callback(null, true);
+      }
+
+      if (!origin) {
+        return callback(null, true);
+      }
+      return callback(new Error("Not allowed by cors"));
+    },
+  })
+);
 
 //Mostrar peliculas
 app.get("/peliculas", (req, res) => {
